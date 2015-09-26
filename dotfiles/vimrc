@@ -491,6 +491,22 @@ let g:javascript_enable_domhtmlcss = 1
 
 
 
+" ==================================
+"    my setting
+" ==================================
+
+nmap e :NERDTree<CR>
+nmap <C-e> $
+nmap <C-a> 0
+nmap <C-l> :tabnext<CR>
+nmap <C-h> :tabprevious<CR>
+set expandtab
+set clipboard=unnamed
+
+
+
+
+
 
 
 
