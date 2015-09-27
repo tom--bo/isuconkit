@@ -8,13 +8,9 @@ mkdir -p $HOME_DIR/log_$TIME/mysql
 
 
 ##  nginx  ##
-mv /var/log/nginx/access.log $HOME_DIR/log_$TIME/nginx
-mv /var/log/nginx/error.log $HOME_DIR/log_$TIME/nginx
-touch /var/log/nginx/access.log
-touch /var/log/nginx/error.log
-chmod 777 /var/log/nginx/access.log
-chmod 777 /var/log/nginx/error.log
-
+mv /var/log/nginx/my-access.log $HOME_DIR/log_$TIME/my-nginx
+touch /var/log/nginx/my-access.log
+chmod 777 /var/log/nginx/my-access.log
 
 ##  apache  ##
 # mv /var/log/httpd/access.log $HOME_DIR/log_$TIME/apache
